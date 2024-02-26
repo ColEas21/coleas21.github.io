@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -53,6 +54,12 @@ time {
     color: #777;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -61,4 +68,14 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.citation {
+    font-style: italic;
+    color: #777;
+}
+
+.date {
+    font-style: italic;
+    color: #777;
 }
